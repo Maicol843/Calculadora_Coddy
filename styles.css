@@ -1,11 +1,13 @@
 /*
-ESTILO CLASE BTN
+ESTILO CLASE EQUAL
 
-Clase objetivo 'btn':
-1. Establece el padding y el font size a 20px. 
-2. Establece el border a 1px, solid, y un color de tu elección.
-3. Establece el background color y el color de tu elección.
-4. Establece el cursor a pointer
+Clase objetivo ‘equal’:
+1. Establece grid-column a span 3.
+2. Establece el color de fondo de tu elección (que no sea el mismo que el de los otros botones).
+3. Añade el siguiente código CSS para el efecto hover:
+4.  .btn:hover {
+        opacity: 0.8;
+    }
 */
 
 body{
@@ -41,4 +43,13 @@ body{
     font-size: 20px;
     border: 1px solid gray;
     cursor: pointer;
+}
+
+.equal{
+    grid-column: span 3;
+    background-color:rgb(255, 254, 240);
+}
+
+.equal:hover{
+    opacity: 0.8;
 }
