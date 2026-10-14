@@ -1,36 +1,27 @@
-/*
-ESTILO CLASE EQUAL
-
-Clase objetivo ‘equal’:
-1. Establece grid-column a span 3.
-2. Establece el color de fondo de tu elección (que no sea el mismo que el de los otros botones).
-3. Añade el siguiente código CSS para el efecto hover:
-4.  .btn:hover {
-        opacity: 0.8;
-    }
-*/
-
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: antiquewhite;
-    font-size: Arial;
+    font-size: 14px;
 }
 
 .calculator{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 20px solid rgb(49, 49, 49);
 }
 
 #display{
-    padding: 20px;
+    padding: 27.7px;
     font-size: 30px;
     border: none;
     text-align: right;
     background-color: black;
+    color: chartreuse;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .buttons{
