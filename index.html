@@ -1,8 +1,13 @@
 <!--
-TITULO Y CALCULADORA DE CLASES
+MOSTRAR INPUT Y BOTONES
 
-1. En la etiqueta head, ¡añade la etiqueta title y el texto que elijas!
-2. En la etiqueta body, crea un div con el nombre de clase calculator.
+El atributo disabled se utiliza para controlar si el usuario puede interactuar con campos de entrada específicos, 
+asegurando un flujo adecuado y la integridad de los datos en el formulario.
+Ejemplo:
+<input type="password" name="title" disabled>
+
+1. Dentro de "calculator", crea una etiqueta input con el atributo type "text" y un ID "display". Además, hazlo disabled.
+2. Debajo del input, crea un div con el nombre de clase 'buttons'.
 -->
 <!DOCTYPE html>
 <html>
@@ -11,6 +16,10 @@ TITULO Y CALCULADORA DE CLASES
 </head>
     <body>
         <!-- Write HTML code here -->
+         <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class="buttons"></div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
