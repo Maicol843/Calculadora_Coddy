@@ -1,9 +1,11 @@
 /*
-ESTILO CLASE BUTTONS
+ESTILO CLASE BTN
 
-Clase objetivo ‘buttons’:
-1. Establece el display a grid.
-2. Establece grid-template-columns a repeat(4, 105px).
+Clase objetivo 'btn':
+1. Establece el padding y el font size a 20px. 
+2. Establece el border a 1px, solid, y un color de tu elección.
+3. Establece el background color y el color de tu elección.
+4. Establece el cursor a pointer
 */
 
 body{
@@ -32,4 +34,11 @@ body{
 .buttons{
     display: grid;
     grid-template-columns: repeat(4,105px);
+}
+
+.btn{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
 }
