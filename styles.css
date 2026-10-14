@@ -1,11 +1,12 @@
 /*
-ESTILO CLASE CALCULATOR
+ESTILO ID DISPLAY
 
-Clase objetivo calculator:
-1. Establece el radio del borde a 10 píxeles. 
-2. Establece overflow a hidden.
-3. Establece:
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ID de destino display:
+1. Establece el padding a 20px. 
+2. Establece el font size a 30px.
+3. Establece el border a none.
+4. Establece text-align a right. 
+5. ¡Establece el background color y el color de tu elección!
 */
 
 body{
@@ -21,4 +22,12 @@ body{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display{
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    text-align: right;
+    background-color: black;
 }
