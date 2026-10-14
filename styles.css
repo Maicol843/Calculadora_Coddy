@@ -1,3 +1,13 @@
+/*
+ESTILO CLASE CALCULATOR
+
+Clase objetivo calculator:
+1. Establece el radio del borde a 10 píxeles. 
+2. Establece overflow a hidden.
+3. Establece:
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+*/
+
 body{
     display: flex;
     justify-content: center;
@@ -5,4 +15,10 @@ body{
     height: 100vh;
     background-color: antiquewhite;
     font-size: Arial;
+}
+
+.calculator{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
