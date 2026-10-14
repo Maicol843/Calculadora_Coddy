@@ -1,12 +1,9 @@
 /*
-ESTILO ID DISPLAY
+ESTILO CLASE BUTTONS
 
-ID de destino display:
-1. Establece el padding a 20px. 
-2. Establece el font size a 30px.
-3. Establece el border a none.
-4. Establece text-align a right. 
-5. ¡Establece el background color y el color de tu elección!
+Clase objetivo ‘buttons’:
+1. Establece el display a grid.
+2. Establece grid-template-columns a repeat(4, 105px).
 */
 
 body{
@@ -30,4 +27,9 @@ body{
     border: none;
     text-align: right;
     background-color: black;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,105px);
 }
