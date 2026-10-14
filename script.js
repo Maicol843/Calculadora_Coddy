@@ -1,9 +1,9 @@
 /*
-FUNCION CLEARDISPLAY
+FUNCION DELETELAST
 
-1. Escribe una función clearDisplay() que borre todo el texto escrito en 'display'.
-2.Para un botón con el texto ‘C’ establece un atributo onclick con la función clearDisplay() para que pueda funcionar cada vez que hagamos clic en el botón.
-3. Pruébalo: Refresca la web y, después de hacer clic en los números, ¡haz clic en el botón 'C' para ver si funciona!
+1. Escribe una función deleteLast() que elimine el último valor del id ‘display’ cada vez que hagas clic en el botón ‘←’.
+2. Establece el atributo onclick a “deleteLast()” para el botón con el texto ‘←’.
+
 */
 
 
