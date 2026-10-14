@@ -1,9 +1,20 @@
 /*
-FUNCION DELETELAST
+FUNCION EVAL
 
-1. Escribe una función deleteLast() que elimine el último valor del id ‘display’ cada vez que hagas clic en el botón ‘←’.
-2. Establece el atributo onclick a “deleteLast()” para el botón con el texto ‘←’.
+En JavaScript, la función eval se utiliza para ejecutar una cadena de código JavaScript. 
+Esta función toma una cadena como argumento y la trata como si fuera una línea de código, 
+evaluándola dentro del ámbito actual. Aquí tienes una explicación detallada de cómo funciona 
+eval, junto con algunos ejemplos:
+Sintaxis: eval(string)
+Ejemplo:
+let x = 10;
+let y = 20;
+let result = eval("x + y");  // Evalúa a 30
+console.log(result);  // Salida: 30
 
+1. Escribe una función calculateResult para concluir el cálculo después de hacer clic en el botón ‘=’.
+2. Establece el atributo onclick a calculateResult() para el botón ‘=’.
+3. ¡Refresca la web y pruébalo!
 */
 
 
