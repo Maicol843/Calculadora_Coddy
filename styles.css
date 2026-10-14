@@ -1,1 +1,18 @@
-/* Write CSS code here */
+/* 
+ESTILIZAR EL BODY
+
+¡Aquí estamos dando estilo a la etiqueta body!
+1. Establece el display a flex
+2. Establece justify-content a center y align-items a center.
+3. Establece una altura de 100 vh
+4. Añade un color de fondo de tu elección.
+5. Elige la fuente de tu elección.
+*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    font-size: Arial;
+}
