@@ -110,5 +110,5 @@ O utiliza la extensión Live Server en Visual Studio Code para desplegarlo local
 ✨ Proyecto desarrollado como práctica de maquetación web, animaciones CSS y funciones JavaScript.
 <p align="left">
   <img src="https://coddy.tech/favicon.ico" width="20" height="20" alt="Coddy Logo" />
-  <b>Proyecto de Práctica | Realizado en <a href="https://coddy.tech/journeys/html/bottom_navigation_bar__htmlcss_project">Coddy</a></b>
+  <b>Proyecto de Práctica | Realizado en <a href="https://coddy.tech/journeys/html/dom_project__calculator">Coddy</a></b>
 </p>
